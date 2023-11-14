@@ -8,14 +8,13 @@
 /*Utils*/
 body{
     font-family: Arial,sans-serif;
-    background-color: brown;
+    background-color: #F5F8F9;
 }
 
 .container{
     max-width: 920px;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: blue;
     border-radius: 5px;
 }
 
@@ -28,11 +27,14 @@ button{
 .button-container{
     border-radius: 5px;
     background-color: white;
+    padding-left: 40px;
+
 }
 
 .container-list{
     margin-top: 3px;
     background-color: white;
+    border-radius: 5px;
 }
 
 ul{
@@ -81,7 +83,7 @@ h1{
 .button-colored{
     background-color: #1D90FF;
     color: white;
-    margin: 10px 5px 10px 30px;
+    margin: 10px 5px 10px 10px;
     border: 0px;
 }
 
@@ -112,6 +114,15 @@ h1{
     border: 1px solid  #57A141;
     border-radius: 50%;
     padding: 0.5px 2px;
+    font-size: 1rem;
+    margin-right: 3px;
+}
+
+.special-x{
+    color: #FF231F;
+    border: 1px solid #FF231F ;
+    border-radius: 50%;
+    padding: 0.5px 3px;
     font-size: 1rem;
     margin-right: 3px;
 }
