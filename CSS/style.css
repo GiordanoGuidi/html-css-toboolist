@@ -52,7 +52,7 @@ li{
     color: white;
     font-size: 0.8rem;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: #44ABEA;
     padding: 4px 8px;
     margin-left: 5px;
 }
@@ -115,6 +115,31 @@ h1{
     font-size: 1rem;
     margin-right: 3px;
 }
+
+.purple{
+        background-color: #9C72E4;
+    }
+
+.green{
+    background-color: #63C0AA;
+}
+
+.orange{
+    background-color: #F29E33;
+}
+
+.pink{
+    background-color: #D863A1;
+}
+
+.light-green{
+    background-color: #B0C926;
+}
+
+#row-final{
+    padding-bottom: 10px;
+}
+
 
 
 
