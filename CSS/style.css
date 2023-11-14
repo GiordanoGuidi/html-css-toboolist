@@ -15,7 +15,7 @@ body{
     max-width: 920px;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: white;
+    background-color: blue;
     border-radius: 5px;
 }
 
@@ -27,6 +27,25 @@ button{
 
 .button-container{
     border-radius: 5px;
+    background-color: white;
+}
+
+.container-list{
+    margin-top: 3px;
+    background-color: white;
+}
+
+ul{
+    padding-inline-start: 0;
+    list-style-position: inside;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+li{
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 /*Header*/
@@ -49,6 +68,7 @@ h1{
 }
 
 /*Main*/
+/*Sezione Bottoni*/
 .button-colored{
     background-color: #1D90FF;
     color: white;
@@ -61,6 +81,33 @@ h1{
     background-color: white;
     border: 1px solid rgb(156, 151, 151);
 }
+
+/*Sezione Lista*/
+
+.bold-li{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 40px 0px 0px 10px;
+}
+
+.down-arrow{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+.check{
+    color: #57A141;
+    border: 1px solid  #57A141;
+    border-radius: 50%;
+    padding: 0.5px;
+    font-size: 1rem;
+}
+
+
+
+
+
 
 
 
