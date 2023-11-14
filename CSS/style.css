@@ -11,6 +11,24 @@ body{
     background-color: brown;
 }
 
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-container{
+    border-radius: 5px;
+}
+
 /*Header*/
 header{
     height: 100px;
@@ -28,6 +46,20 @@ h1{
     display: inline;
     vertical-align:middle;
     font-size: 3rem;
+}
+
+/*Main*/
+.button-colored{
+    background-color: #1D90FF;
+    color: white;
+    margin: 10px 5px 10px 30px;
+    border: 0px;
+}
+
+.button-uncolored{
+    color: #A0938B;
+    background-color: white;
+    border: 1px solid rgb(156, 151, 151);
 }
 
 
