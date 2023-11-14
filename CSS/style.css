@@ -48,6 +48,15 @@ li{
     padding-left: 10px;
 }
 
+.label{
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    background-color: aqua;
+    padding: 4px 8px;
+    margin-left: 5px;
+}
+
 /*Header*/
 header{
     height: 100px;
@@ -88,20 +97,23 @@ h1{
     font-size: 1.5rem;
     font-weight: 500;
     padding: 40px 0px 0px 10px;
+    
 }
 
 .down-arrow{
     font-size: 0.8rem;
     font-weight: lighter;
     vertical-align: middle;
+    margin-right: 3px;
 }
 
 .check{
     color: #57A141;
     border: 1px solid  #57A141;
     border-radius: 50%;
-    padding: 0.5px;
+    padding: 0.5px 2px;
     font-size: 1rem;
+    margin-right: 3px;
 }
 
 
